@@ -4,7 +4,6 @@
 
 - Use SQL to store data and retrieve it later on.
 - Use SQLite to build relational databases on your computer.
-- Perform CRUD operations on relational databases using SQL.
 
 ***
 
