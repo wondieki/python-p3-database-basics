@@ -68,6 +68,18 @@ avi = Person("Avi", 28, "avi@flatironschool.com")
 adam = Person("Adam", 28, "adam@flatironschool.com")
 ```
 
+<details>
+  <summary>
+    <em>Would <code>age</code> be an example of a table, row, or column in
+        SQL?</em>
+  </summary>
+
+  <h3>Column!</h3>
+  <p>Tables are like Python classes, rows are like objects, and columns are like
+     attributes.</p>
+</details>
+<br/>
+
 ### Note on Column Names
 
 When we name columns in our database, there are a couple of conventions we will
@@ -222,7 +234,7 @@ CREATE TABLE cats (
 ```
 
 Notice that the `ALTER` statement isn't here, but instead SQLite has updated our
-original CREATE statement. The schema reflects the current structure of the
+original `CREATE` statement. The schema reflects the current structure of the
 database, which is reflected as the CREATE statement necessary to create that
 structure.
 
